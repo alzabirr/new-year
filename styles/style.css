@@ -48,12 +48,13 @@
 }
 
 
-/* container area */
+ /* failures style */
 .container{
-    margin: 0 200px;
+    margin: 0px 200px;
     display: flex;
     margin-top: 150px;
     justify-content: space-between;
+   
 }
 
 .my-failures{
@@ -90,4 +91,117 @@ ul li{
 
 ul li img{
     margin-top: 5px;
+    
+}
+
+
+.mini-content{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 35px;
+}
+
+
+.container p{
+    color: #737272;
+    text-align: center;
+    
+}
+
+.container div h4{
+    font-size: 30px;
+    align-items: center;
+}
+
+.watch{
+    background-image: url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 8px;
+    margin-top: 100px;
+    height: 300px;
+    
+    
+    
+}
+
+.watch h2{
+    color: aliceblue;
+    margin-left: 200px;
+   font-size: 40px
+   
+}
+
+
+.secend-btn{
+    width: 160px;
+    height: 64px;
+    margin-top: 32px;
+    margin-left: 150px;
+    text-align: center;
+    padding: 21px 25px 26px 30px;
+    color:#F15B22;
+    background-color:white ;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+
+/* footer area style */
+   footer{
+    margin-top: 100px;
+    background-color: black;
+    height: 577px;
+    display: flex;
+    justify-content:space-between;
+   }
+
+   .left{
+    color: aliceblue;
+    text-align: justify;
+    
+   }
+ .right{
+    color: antiquewhite;
+    width: 50%;
+    margin-left: 100px;
+ }
+ .right h1{
+    font-size: 40px;
+ }
+.five{
+    line-height: 20px;
+}
+
+.left h1{
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.left h5{
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.left h2{}
+
+
+.last-container{
+
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+   
+}
+
+input{
+    padding: 21px 151px 22px 21px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 5px;
+    border-color: aliceblue;
+    margin-top: 30px;
+
 }
