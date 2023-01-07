@@ -6,16 +6,81 @@
 
 .banner{
     background-image: url('../images/banner/banner1.png');
-    height: 100vh;
+   
     width: 100%;
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
+    
 }
 
 
-.title{
-    
+/* tex area */
+.tex{
+    text-align: right;
+    padding: 216px 230px 20px 600px;
+}
+
+.tex h3{
+    font-size: 65px;
+}
+
+.sub-title{
+    padding-top: 25px;
+    color: #444343;
+}
+
+/* parimary btn area */
+.primary-btn{
+    width: 160px;
+    height: 64px;
+    margin-top: 32px;
+    text-align: center;
+    padding: 21px 25px 26px 30px;
+    color: wheat;
+    background-color: #F15B22;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 100px;
+
+}
+
+
+/* container area */
+.container{
+    margin: 0 200px;
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-between;
+}
+
+.my-failures{
+    margin-top: 300px;
+    margin-left: 87px;
+}
+
+.my-failures h4{
     font-size: 40px;
-    font-weight:700;
-    padding: 216px 230px 24px 845px;
+    margin-bottom: 24px;
+
+    
+}
+
+.my-failures p{
+    margin-bottom: 24px;
+    color: #444343;
+    
+    
+font-size: 16px;
+line-height: 26px;
+
+}
+
+ul{
+list-style: none;
+}
+ul li{
+    
 }
